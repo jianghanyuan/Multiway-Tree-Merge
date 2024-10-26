@@ -1,6 +1,6 @@
 # Multiway Tree Construction and Merging Tool
 
-A Python tool for constructing, merging, and traversing Multiway Tree.
+A Python tool for constructing, merging, and traversing Multiway Tree (also called Non-binary Tree).
 
 ## Project Overview
 
