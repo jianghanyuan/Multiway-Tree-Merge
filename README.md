@@ -22,7 +22,14 @@ This package is not yet published. You can clone the repository directly to obta
 
 ```bash
 git clone https://github.com/jianghanyuan/Non-Binary-Tree-Merge.git
+```
+## Project Structure
 
-
+- `Usage.md`: Provides usage instructions and rules.
+- `node.py`: Defines the `Node` class.
+- `tree_builder.py`: Functions for building trees.
+- `tree_merger.py`: Functions for merging trees.
+- `traversal.py`: Functions for tree traversal.
+- `examples/`: Usage examples.
 
 
