@@ -53,3 +53,13 @@ result = preorder_traversal(merged_root)
 print(result)  # Outputs: [1, 15, 2, 20, 3, 30]
 
 ```
+## Merging Rules
+1. **Same Root Key**: The trees can only be merged if their root nodes have the same key.
+2. **Node Merging**:
+   - Merged node's key is taken from the left tree.
+   - Merged node's value is taken from the right tree.
+3. **Children Merging**:
+   - Recursively merge children if they exist in both trees.
+   - Include children from either tree if they exist in only one.
+   - Retain the order of children from the left tree and append any new children from the right tree.
+
