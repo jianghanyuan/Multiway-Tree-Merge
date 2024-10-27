@@ -2,6 +2,15 @@
 
 A Python tool for constructing, merging, and traversing Multiway Tree (also called Non-binary Tree).
 
+This project is packaged and published!
+```bash
+https://test.pypi.org/project/Treemerge/0.1.0/
+```
+To install and use:
+```bash
+pip install -i https://test.pypi.org/simple/ Treemerge==0.1.0
+```
+
 ## Project Overview
 
 This project provides functionality to construct Multiway Tree, merge two trees according to specific rules, and perform pre-order traversal on the trees. With this tool, you can:
@@ -23,6 +32,11 @@ You can clone the repository directly to obtain the source code:
 ```bash
 git clone https://github.com/jianghanyuan/Non-Binary-Tree-Merge.git
 ```
+or:
+```bash
+pip install -i https://test.pypi.org/simple/ Treemerge==0.1.0
+```
+
 ## Project Structure
 
 - `Usage.md`: Provides usage instructions and rules.
