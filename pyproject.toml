@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Treemerge"
+version = "0.1.0"
+description = "Multiway Tree Construction and Merging Tool."
+readme = "README.md"
+authors = [
+    { name = "Blake Jiang", email = "b.chiang@hotmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["tree", "multiway tree", "tree merging", "tree traversal"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jianghanyuan/Multiway-Tree-Merge"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["treemerge"]
