@@ -19,6 +19,9 @@ This project provides functionality to construct Multiway Tree, merge two trees 
 - **Merge Trees**: Merge two trees following specified rules.
 - **Pre-order Traversal**: Perform pre-order traversal to obtain a sequence of node keys and values.
 
+It‘s particularly useful for situations where you need to handle hierarchical data, such as organizational structures or file systems, and apply custom merging rules to combine multiple trees. The package allows you to build flexible trees, merge them based on key similarities, and traverse them in a structured way. It is designed to be modular, making it easy to integrate into other projects that require tree data manipulation.
+
+
 ## Features
 
 - **Tree Construction**: Create Multiway Tree from lists of nodes and their child relationships.
