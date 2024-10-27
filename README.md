@@ -2,7 +2,7 @@
 
 A Python package for constructing, merging, and traversing Multiway Tree (also called Non-binary Tree).
 
-This project is packaged and published!
+This project is packaged and published on:
 ```bash
 https://test.pypi.org/project/Treemerge/0.1.0/
 ```
